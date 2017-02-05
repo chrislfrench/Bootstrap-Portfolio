@@ -1,0 +1,377 @@
+
+
+body{
+
+	background-image: url("../assets/images/cork-wallet.png");
+	width: 100%;
+}
+
+
+#headerRow{
+
+	width: 960px;
+	border-bottom: solid;
+	border-bottom-width: 2px;
+	border-color: #cccccc;
+	padding: 13px 0px 8px 0px;
+	background-color: white;
+	margin-left: 60px;
+	margin-top: 10px;
+	height: 75px;
+	clear: both;
+	position: relative;
+	
+}
+
+#headerColumn{
+height: 60px;
+background-color: white;
+display: inline-block;
+}
+
+#name{
+
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: white !important;
+	text-align: center;
+	padding: 5px;
+
+}
+
+#span1{
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	font-size: xx-large;
+	padding: 16.75px 8px 20px 8px;
+	margin-right: 385px;
+	margin-left: 10px;
+
+}
+
+a{
+
+	color: #08afa7 !important;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: medium;
+
+
+}
+
+#span2{
+	background-color: white;
+	color: #08afa7 !important;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+#span2 a{
+
+	text-decoration: none;
+
+}
+
+#span2 a:hover{
+	
+	text-decoration: none;
+}
+
+.nav navbar-nav navbar-right{
+	
+	color: #20afa7 !important;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-color: #ffffff;
+
+}
+
+.pageheader{
+
+}
+
+
+small{
+
+	margin-left: 50px;
+}
+
+#aboutme{
+	background-color: white;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #cccccc;
+	margin:  5px;
+	width: 550px;
+}
+
+#connect{
+	background-color: white;
+	width: 280px;
+	padding: 10px 20px 30px 20px;
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-left: 10px;
+	background-color: #ffffff;
+	text-align: center;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #cccccc;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#connect2{
+
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #08afa7;
+	padding-bottom: 15px;
+	border-bottom: solid;
+	border-bottom-width: 1px;
+	border-color: lightgrey;
+	margin-bottom: 20px;
+}
+
+#link{
+	
+	margin: 7px;
+
+}
+
+#header{
+	width: 960px;
+}
+
+#me{
+	border-bottom: solid;
+	border-width: 3px;
+	border-color: #cccccc;
+	color: #08afa7;
+	padding: 15px 10px 20px 10px;
+}
+
+#mainrow{
+	width: 960px;
+	align-content: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	clear: both;
+}
+
+#aboutmeText{
+	font-kerning: auto;
+	line-height: 26px;
+	font-size: 110%;
+	padding: 15px;
+	color: #777777;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#selfie{
+	float: left;
+	margin: 10px;
+}
+
+#portfolio{
+	background-color: white;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #cccccc;
+	margin: 5px;
+	padding: 10px 10px 10px 5px;
+	width: 507px;
+	clear: both;
+	display: inline-block;
+}	
+
+/*Hangman game starts*/
+#div1{
+
+	position: relative;
+	float: left;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #cccccc;
+	margin: 20px 20px 20px 20px;
+	display: block;
+
+}
+
+#div1 h3{
+	position: absolute;
+	bottom: 0px;
+	text-align: right;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 10px 42px 10px 49.5px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 15px;
+}
+
+#div1pic{
+	display: block;
+}
+/*Hangman game end*/
+
+
+/*RPG game starts*/
+#div2{
+
+	position: relative;
+	float: left;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #cccccc;
+	margin: 20px 20px 20px 20px;
+}
+
+#div2 h3{
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 10px 60px 10px 66.5px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 15px;
+}
+
+#div2pic{
+	display: block;
+}
+/*RPG game ends*/
+
+/*Trivia game starts*/
+#div3{
+
+	position: relative;
+	float: left;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #cccccc;
+	margin: 20px 20px 20px 20px;
+}
+
+#div3 h3{
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 10px 51.5px 10px 66.5px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 15px;
+}
+
+#div3pic{
+	display: block;
+}
+/*Trivia game ends*/
+
+/*Rutgers starts*/
+#div4{
+
+	position: relative;
+	float: left;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #cccccc;
+	margin: 20px 20px 20px 20px;
+}
+
+#div4 h3{
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 10px 30px 10px 35.5px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 15px;
+}
+
+#div4pic{
+	display: block;
+}
+/*Rutgers ends*/
+
+/*Rock Paper Scissors starts*/
+#div5{
+
+	position: relative;
+	float: left;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #cccccc;
+	margin: 20px 20px 20px 20px;
+
+}
+
+#div5 h3{
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 10px 30.5px 10px 36.5px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 15px;
+}
+
+#div5pic{
+	display: block;
+}	
+/*Rock Paper Scissors ends*/
+
+button{
+
+	width: 25%;
+	border-color: #4aaaa5 !important; 
+	background-color: #4aaaa5 !important;
+}
+
+button:hover{
+
+	width: 25%;
+	border-color: #4aaaa5 !important; 
+	background-color: #4aaaa5 !important;
+}
+
+button:default{
+
+	width: 25%;
+	border-color: #4aaaa5 !important; 
+	background-color: #4aaaa5 !important;
+}
+
+button:visited{
+
+	width: 25%;
+	border-color: #4aaaa5 !important; 
+	background-color: #4aaaa5 !important;
+}
+
+label{
+	color: #20afa7;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+}
+
+/*Footer starts*/
+#footer{
+
+	position: relative;
+	clear: both;
+	bottom: 0px;
+	width: 960px;
+	text-align: center;
+	border-top: solid;
+	border-top-width: 5px;
+	border-top-color: #4aaaa5;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-color: #666666;
+	padding: 25px;
+	color: #cccccc;
+	font-size: 65%;
+}
+/*Footer ends*/
