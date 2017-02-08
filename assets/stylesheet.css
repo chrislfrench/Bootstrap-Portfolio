@@ -1,12 +1,12 @@
 
-
+/*body section where background image sits*/
 body{
 
 	background-image: url("../assets/images/cork-wallet.png");
 	width: 100%;
 }
 
-
+/*Header starts*/
 #headerRow{
 
 	width: 960px;
@@ -24,9 +24,9 @@ body{
 }
 
 #headerColumn{
-height: 60px;
-background-color: white;
-display: inline-block;
+	height: 60px;
+	background-color: white;
+	display: inline-block;
 }
 
 #name{
@@ -96,7 +96,10 @@ small{
 
 	margin-left: 50px;
 }
+/*Header ends*/
 
+
+/*About Div Starts*/
 #aboutme{
 	background-color: white;
 	border-width: 2px;
@@ -106,6 +109,7 @@ small{
 	width: 550px;
 }
 
+/*Connect With Me div starts*/
 #connect{
 	background-color: white;
 	width: 280px;
@@ -323,6 +327,8 @@ small{
 }	
 /*Rock Paper Scissors ends*/
 
+
+/*Form section starts*/
 button{
 
 	width: 25%;
@@ -356,6 +362,14 @@ label{
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 20px;
 }
+
+input{
+
+	height: 51px !important;
+
+}
+/*Form section ends*/
+
 
 /*Footer starts*/
 #footer{
